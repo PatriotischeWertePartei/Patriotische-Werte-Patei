@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Patriotische Werte Partei (PWP)</title>
   <style>
     body {
@@ -14,39 +14,41 @@
     header {
       background: #E65100;
       color: white;
-      padding: 1em 2em;
+      padding: 1.5em 1em;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5em;
-      font-weight: bold;
+      font-size: 2em;
     }
     header p {
-      font-size: 1.2em;
+      font-size: 1.1em;
+      margin-top: 0.3em;
     }
     nav {
-      background: #E65100;
-      padding: 1em 2em;
-      text-align: center;
+      background: #D84315;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0.8em 0.5em;
     }
     nav a {
       color: white;
-      margin: 0 15px;
+      margin: 0.3em 0.8em;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.1em;
+      font-size: 1em;
     }
     section {
-      padding: 2em;
+      padding: 1.5em;
       background: white;
-      margin: 1em 2em;
-      border-radius: 8px;
+      margin: 1em;
+      border-radius: 10px;
     }
     h2 {
       color: #E65100;
-      font-size: 1.8em;
-      margin-bottom: 0.5em;
+      font-size: 1.5em;
+      margin-bottom: 0.6em;
     }
     ul {
       list-style-type: disc;
@@ -58,9 +60,25 @@
       background: #E65100;
       color: white;
       margin-top: 2em;
+      font-size: 0.9em;
     }
-    footer p {
-      margin: 0;
+
+    /* Responsives Verhalten */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      nav a {
+        font-size: 0.95em;
+        margin: 0.2em 0.5em;
+      }
+      section {
+        margin: 0.5em;
+        padding: 1em;
+      }
     }
   </style>
 </head>
@@ -86,14 +104,14 @@
   <section id="themen">
     <h2>Unsere Themen</h2>
     <ul>
-      <li><strong>Starke Wirtschaft:</strong> Wir setzen auf marktorientierte Politik, Bürokratieabbau, Förderung des Mittelstands und Unterstützung von Innovation und Unternehmertum.</li>
-      <li><strong>Klar geregelte Migration:</strong> Migration muss kontrolliert und geordnet sein. Wir fordern eine deutlich strengere Migrationspolitik, die illegale Einwanderung unterbindet und Integration mit klaren Regeln verbindet.</li>
-      <li><strong>Volksabstimmungen:</strong> Bürgerinnen und Bürger sollen bei grundlegenden politischen Weichenstellungen direkt mitentscheiden – durch Volksentscheide auf Bundesebene.</li>
-      <li><strong>Friedenspolitik:</strong> Deutschland soll sich aktiv für Diplomatie und friedliche Konfliktlösungen einsetzen. Wir wollen Friedensverhandlungen im Ukraine-Konflikt fördern und pragmatische Beziehungen mit allen wichtigen Wirtschaftsnationen pflegen – auch mit Russland.</li>
-      <li><strong>Reform der EU:</strong> Wir stehen zur EU-Mitgliedschaft, setzen uns jedoch für eine grundlegende Reform ein: Mehr Eigenverantwortung für Nationalstaaten, weniger Zentralismus, mehr Demokratie.</li>
-      <li><strong>Bildung neu denken:</strong> Frühe Möglichkeit zur Schwerpunktwahl ab der Mittelstufe. Einführung von Leistungs- und Grundkursen in Hauptfächern – mit der Verpflichtung zu mindestens zwei Leistungskursen. Mehr Eigenverantwortung, klare Struktur und gezielte Förderung von Talenten.</li>
-      <li><strong>Starke Infrastruktur:</strong> Wir fordern gezielte Investitionen in die Modernisierung von Straßen, Schienen, Brücken sowie ganz besonders in unsere Schulen. Marode Schulgebäude dürfen nicht länger der Normalzustand sein – Bildung braucht ein starkes Fundament.</li>
-      <li><strong>Sprach- & Kulturpolitik:</strong> Erhalt der deutschen Sprache und Werte. Klare Ablehnung des Genderzwangs in Sprache und Verwaltung.</li>
+      <li><strong>Starke Wirtschaft:</strong> Bürokratieabbau, Mittelstand fördern, Innovation stärken.</li>
+      <li><strong>Klar geregelte Migration:</strong> Illegale Einwanderung stoppen, Integration mit Regeln.</li>
+      <li><strong>Volksabstimmungen:</strong> Direktdemokratie bei zentralen politischen Fragen.</li>
+      <li><strong>Friedenspolitik:</strong> Verhandlungen im Ukraine-Konflikt, wirtschaftliche Stabilität durch Diplomatie.</li>
+      <li><strong>Reform der EU:</strong> Mehr nationale Souveränität, weniger Zentralismus.</li>
+      <li><strong>Bildung neu denken:</strong> Frühzeitige Wahlfreiheit, Leistungs- und Grundkurse, moderne Schulen.</li>
+      <li><strong>Starke Infrastruktur:</strong> Brücken, Straßen, Bahn und Schulen sanieren und zukunftsfähig machen.</li>
+      <li><strong>Sprach- & Kulturpolitik:</strong> Klare Sprache, Schutz deutscher Werte, kein Genderzwang.</li>
     </ul>
   </section>
 
@@ -102,14 +120,13 @@
     <p><strong>Constantin Horn</strong> – Vorsitzender der Partei<br>
        <strong>Henning Schimanke</strong> – Stellvertretender Vorsitzender<br>
        <strong>Christoph Krause</strong> – Programmdirektor<br>
-       <strong>Bruno Lage</strong> – Sprecher für Öffentlichkeitsarbeit
-    </p>
+       <strong>Bruno Lage</strong> – Sprecher für Öffentlichkeitsarbeit</p>
   </section>
 
   <section id="kontakt">
     <h2>Kontakt</h2>
-    <p>Du möchtest mit uns in Kontakt treten oder Mitglied werden? Schreib uns eine Mail an: 
-       <a href="mailto:pwpkontakt212@gmail.com">pwpkontakt212@gmail.com</a></p>
+    <p>Du möchtest mit uns in Kontakt treten oder Mitglied werden?<br>
+    Schreib uns eine Mail an: <a href="mailto:pwpkontakt212@gmail.com">pwpkontakt212@gmail.com</a></p>
   </section>
 
   <footer>
